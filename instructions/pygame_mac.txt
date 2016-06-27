@@ -1,0 +1,13 @@
+xcode-select -–install
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew install mercurial
+
+brew install git
+
+brew install sdl sdl_image sdl_mixer sdl_ttf smpeg portmidi
+
+cd $(which python3 | sed 's/python3$//')
+
+pip3 install hg+http://bitbucket.org/pygame/pygame
