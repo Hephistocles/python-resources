@@ -1,23 +1,24 @@
-In IDLE, write the following:
+# In IDLE, write the following:
 
 import distutils.util
 distutils.util.get_platform()
 
-That will print "win32" if you're on 32 bit Python, or "win_amd64" if you're on 64 bit Python
+#That will print "win32" if you're on 32 bit Python,
+#  or "win_amd64" if you're on 64 bit Python
 
-Go to http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame
+# Go to http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame
 
-if you're on 64 bit:
-	Click "pygame-1.9.2a0-cp34-none-win_amd64.whl"
-else:
-	Click "pygame-1.9.2a0-cp34-none-win32.whl"
+# if you're on 64 bit:
+#	Click "pygame-1.9.2a0-cp35-none-win_amd64.whl"
+# else:
+#	Click "pygame-1.9.2a0-cp35-none-win32.whl"
 
-Save the file in C:\Python34\Scripts (make sure not to change the name!)
+# Save the file in your python folder (make sure not to change the name!)
 
-Start > cmd
+# Start > cmd
 
-type: cd "C:\Python34\Scripts"
-if 64 bit:
-	type: pip3 install pygame-1.9.2a0-cp34-none-win_amd64.whl
-else:
-	type: pip3 install pygame-1.9.2a0-cp34-none-win32.whl
+# type: cd "[YOUR PYTHON FOLDER]"
+# if 64 bit:
+#	type: pip3 install pygame-1.9.2a0-cp35-none-win_amd64.whl
+#else:
+#	type: pip3 install pygame-1.9.2a0-cp35-none-win32.whl
