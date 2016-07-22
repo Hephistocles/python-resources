@@ -24,7 +24,7 @@ while keepPlaying:
 	# Phase 4
 	# rectangle.move_ip(1, 1) # Goes too fast!
 
-	# Phase 5
+	# Phase 6
 	keys = pygame.key.get_pressed()
 	if keys[pygame.K_LEFT]:
 		rectangle.move_ip(-1, 0)
@@ -35,5 +35,5 @@ while keepPlaying:
 	if keys[pygame.K_DOWN]:
 		rectangle.move_ip(0, 1)
 
-	# Phase 6
+	# Phase 5
 	pygame.time.wait( 1000 // 50 )
